@@ -5,14 +5,14 @@ var customerInfo=function(req,resp)
 {
 	var dataOfCustomersAccounts=[
 		{
-			acctNo:101, CustomerName:'Infosys', BranchLocation:'pune', BusinessShare:'33%'
+			acctNo:101, CustomerName:'Infosys', BranchLocation:'pune', BusinessShare:'33%', customerType:"IMP"
 			
 		},
 		{
-			acctNo:102, CustomerName:'Dassault Systemes', BranchLocation:'france', BusinessShare:'67%'
+			acctNo:102, CustomerName:'Dassault Systemes', BranchLocation:'france', BusinessShare:'67%', customerType:"VIMP"
 		},
 		{
-			acctNo:103, CustomerName:'KPIT', BranchLocation:'banglore', BusinessShare:'13%'																																	 
+			acctNo:103, CustomerName:'KPIT', BranchLocation:'banglore', BusinessShare:'13%'	, customerType:"NIMP"																																 
 		}
 	];
 	resp.send(dataOfCustomersAccounts)

@@ -9,7 +9,7 @@ var customerInfo=function(req,resp)
 			
 		},
 		{
-			acctNo:102, CustomerName:'Dassault Systemes', BranchLocation:'france', BusinessShare:'47%'
+			acctNo:102, CustomerName:'Dassault Systemes', BranchLocation:'france', BusinessShare:'67%'
 		},
 		{
 			acctNo:103, CustomerName:'KPIT', BranchLocation:'banglore', BusinessShare:'13%'																																	 
